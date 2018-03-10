@@ -1,0 +1,12 @@
+<svg
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 31" style="enable-background:new 0 0 31 31;" xml:space="preserve">
+<style type="text/css">
+	.bg{fill:#FFFFFF;}
+	.pl{fill:#FB2539;}
+</style>
+<path class="bg" d="M15.5,0C24.1,0,31,6.9,31,15.5C31,24.1,24.1,31,15.5,31S0,24.1,0,15.5C0,6.9,6.9,0,15.5,0z"/>
+<path class="pl" d="M15.5,27C9.2,27,4,21.8,4,15.5S9.2,4,15.5,4S27,9.2,27,15.5S21.8,27,15.5,27z M15.5,5.3
+	C9.9,5.3,5.3,9.9,5.3,15.5s4.6,10.2,10.2,10.2c5.6,0,10.2-4.6,10.2-10.2S21.1,5.3,15.5,5.3z M12.4,10.6l8.5,4.9l-8.5,4.9V10.6z
+	 M13.7,18.1l4.5-2.6l-4.5-2.6V18.1z"/>
+</svg>

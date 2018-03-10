@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('fonts/fontello.eot?50786540');
+    src: url('fonts/fontello.eot?50786540#iefix') format('embedded-opentype'),
+    url('fonts/fontello.woff?50786540') format('woff'),
+    url('fonts/fontello.ttf?50786540') format('truetype'),
+    url('fonts/fontello.svg?50786540#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icons::after, .icons-b::after, .icons-b::before
+{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icons.left{
+    margin-right: 7px;
+}
+.icons.right{
+    margin-left: 7px;
+}
+.icons.review::after{
+content: "\e800";
+}
+.icons.chevron-left::after{
+    content: "\e802";
+}
+.icons.chevron-right::after{
+    content: "\e803";
+}
+.icons.chevron-down::after{
+    content: "\e801";
+}
+.icons.chevron-up::after{
+    content: "\e804";
+}
+.icons.like::after, .icons-b.like::before{
+    content: "\e80a";
+}
+
+.icons.dislike::after, .icons-b.dislike::before{
+    content: "\e806";
+}
+.icons.play::after{
+    content: "\e80e";
+}
+.icons.compar::after{
+    content: "\e805";
+}
+.icons.reviews::after{
+    content: "\e811";
+}

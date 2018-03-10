@@ -1,0 +1,30 @@
+.ico{
+    position: relative;
+}
+.ico::after{
+    position: absolute;
+    content: "";
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*.chevron-down::after{
+    width: 9px;
+    height: 5px;
+    right: 15px;
+    top:19px;
+    background-image: url("../images/icon/chevron-down.svg");
+}*/
+.lock::after{
+    width: 11px;
+    height: 14px;
+    top:50%;
+    margin-top: -9px;
+    left: -1px;
+    background-image: url("../images/icon/lock.svg");
+}
+.searchico::after{
+    background-image: url("../images/icon/search.svg");
+    width: 18px;
+    height: 18px;
+}
